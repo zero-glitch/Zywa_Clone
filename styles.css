@@ -1,0 +1,207 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Navbar **/
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem 0 ;
+    background-color: #010129;
+    color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+
+    
+}
+
+.nav-items li{
+    list-style-type: none;
+    display:inline-block;
+    justify-content: space-around;
+    margin-right: 2rem;
+    font-weight: bolder;
+    font-size:large;
+
+}
+.nav-items li a{
+    text-decoration: none;
+    color: white;
+
+}
+.logo{
+    font-weight: bold;
+    font-size:xx-large;
+}
+.hero{
+    height:100vh;
+    background-color: #010129;
+    color: white;
+    padding-top: 3rem;
+    
+}
+
+.hero-con{
+   
+    margin-top: 5rem;
+    padding: 9rem 0;
+    max-width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.h-title{
+    align-self: start;
+    
+}
+
+.h-title h1{
+    font-size: 68px;
+}
+
+.h-title h2{
+    width:60%;
+}
+
+.h-image img{
+    position: relative;
+    height:550px;
+    top:0;
+    
+
+
+}
+
+/* This is two images  stacking on one another */ 
+
+/*.h-card img{
+    position: relative;
+    z-index:2;
+    top:-9rem;
+    height:280px;
+    left:7rem;
+}*/
+
+.special{
+    height: 100vh;
+    background-color: #010129;
+    color: white;
+    padding-top: 5rem;
+    
+}
+.s-contain{
+    max-width: 70%;
+    padding:10rem 0;
+    height: 75vh;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.s-title h1{
+    font-size: 68px;
+    width:65%;
+}
+.card img{
+    height:300px;
+}
+
+.earn{
+    height: 70vh;
+    background-color: #010129;
+    color: white;
+    padding-top:3rem ;
+}
+
+.earn-box{
+    margin:0 auto;
+    max-width: 90%;
+    display: flex;
+    justify-items: flex-start;
+    align-items: center;
+}
+
+.diamone img,.coin img{
+    height: 200px;
+} 
+
+.earn-title{
+    flex-direction: column;
+    text-align: center;
+}
+
+.earn-title h1{
+    font-size: 70px;
+}
+
+.earn-title h3{
+    font-size: 26px;
+    font-weight: 100;
+    margin: 0 auto;
+}
+
+.join{
+    height: 70vh;
+    background-color: #010129;
+    color: white;
+    padding-top:3rem ;
+}
+
+.join-box{
+    height:100vh;
+    flex-direction: column;
+    text-align: center;
+    font-size: 45px;
+    max-width: 90%;
+    margin:0 auto;  
+}
+
+.join-box h1{
+   background: -webkit-linear-gradient(rgb(234, 226, 238), rgb(52, 64, 300, 252));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.show-card{
+    height: 100vh;
+    background-color: #010129;
+    color: white;
+}
+
+.show-box{
+    height: 70vh;
+    background-color: #6f6fc5;
+    color: white;
+    padding-top:3rem ;
+    max-width: 70%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    background:   linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.image-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.phone img{
+    height:400px;
+    
+}
