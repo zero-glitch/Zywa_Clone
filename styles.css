@@ -3,6 +3,7 @@
     padding:0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #010129;
 }
 
 /* Navbar **/
@@ -54,6 +55,7 @@
     background-color: #010129;
     color: white;
     padding-top: 3rem;
+    width:100%;
     
 }
 
@@ -67,13 +69,12 @@
     height: 90vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     
 }
 
 .h-title{
     align-self: start;
-    transition: ease-in 0.3s;
 }
 
 .h-title h1{
@@ -87,8 +88,6 @@
 .h-image img{
     position: relative;
     height:550px;
-    top:0;
-    
 
 
 }
@@ -129,7 +128,7 @@
 }
 
 .earn{
-    height: 70vh;
+    height: 100vh;
     background-color: #010129;
     color: white;
     padding-top:3rem ;
@@ -142,6 +141,7 @@
     justify-items: flex-start;
     align-items: center;
     margin-top:10rem;
+    
 }
 
 .diamone img,.coin img{
@@ -149,8 +149,9 @@
 } 
 
 .earn-title{
-    flex-direction: column;
+    
     text-align: center;
+    margin:auto;
 }
 
 .earn-title h1{
@@ -168,17 +169,17 @@
     background-color: #010129;
     color: white;
     padding-top:3rem ;
+    width:100%;
+    
 }
 
 .join-box{
-    height:100vh;
-    flex-direction: column;
+    height:90vh;
     text-align: center;
     font-size: 45px;
     max-width: 90%;
     margin:0 auto;  
-    margin-top: 8rem;
-    margin-bottom: 10rem;
+    
 }
 
 .join-box h1{
@@ -196,8 +197,7 @@
 }
 
 .show-box{
-    height: 70vh;
-    background-color: #6f6fc5;
+    height: 90vh;
     color: white;
     padding-top:5rem ;
     max-width: 70%;
@@ -207,7 +207,7 @@
     align-items: center;
     justify-content: space-around;
     border-radius: 20px;
-    background:   linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    /*background:linear-gradient(250deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);*/
 }
 
 .image-box{
@@ -247,4 +247,264 @@
     text-align:center;
     font-size:13px;
     color:white;
+}
+
+@media screen and  (max-width: 400px) {
+
+    .body{
+        overflow: hidden;
+    }
+
+    .logo{
+        font-weight: bold;
+        font-size:medium;
+    }
+    .navbar li{
+        font-weight:100;
+        font-size:small;
+        margin-right: 4px;
+    }
+
+    .btn{
+        font-weight:100;
+        font-size:small;
+        padding: 5px 10px;
+    }
+
+    .hero{
+        flex-direction: column;
+    }
+
+    .hero-con{
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
+
+    .h-title h1{
+        font-size: 62px;
+    }
+    
+    .h-title h2{
+        width:auto;
+    }
+
+    .h-image img{
+        display: none;
+    }
+
+    .special{
+        flex-direction: column-reverse;
+    }
+
+    .s-contain{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 5rem;
+    }
+
+    .card img{
+        height:200px;
+    }
+
+    .s-title h1{
+        font-size: 60px;
+        width:auto;
+        margin:0 auto;
+        margin-top:3rem;
+    }
+
+    .earn-box{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .earn-title h1{
+        font-size: 62px;
+    }
+
+    .join{
+        height: 110vh;
+        margin-top: 15rem;
+    }
+    .join-box{
+        height: 120vh;
+        display: flex;
+        flex-direction: column;
+        margin-top: 13rem;
+        
+    }
+
+    .join-box h1{
+        font-size: 62px;
+    }
+
+    .show-box{
+        margin-top:5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; 
+    }
+
+    .show-card{
+        height: 120vh;
+    }
+
+    .show-box{
+        height: 110vh;
+    }
+
+    .image-box{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-box .apple , .google{
+        margin-bottom: 2rem;
+    } 
+}
+
+@media screen and  (max-width: 768px){
+    .navbar li{
+        margin-right:7px;
+    }
+
+    /*.hero{
+        height:100vh;
+        background-color: #010129;
+        color: white;
+        padding-top: 3rem;
+        width:100%;
+        
+    }*/
+    
+    /*.hero-con{
+       
+        margin-top: 5rem;
+        padding: 9rem 0;
+        width: 80%;
+        margin-left:auto;
+        margin-right:auto;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+    }*/
+    
+    .h-title{
+        align-self: start;
+    }
+    
+    .h-title h1{
+        font-size: 45px;
+    }
+    
+    .h-title h2{
+        font-size: medium;
+        
+    }
+    
+    .h-image img{    
+        height:420px;
+    }
+
+    .special{
+        height: 100vh;
+        background-color: #010129;
+        color: white;
+        padding-top: 5rem;
+        
+    }
+    .s-contain{
+        max-width: 70%;
+        padding:10rem 0;
+        height: 100vh;
+        margin:0 auto;
+        margin-top: 8rem;
+        display: flex;
+        justify-content: space-around;
+    }
+    
+    .s-title h1{
+        font-size: 45px;
+        width:75%;/*65%*/
+    }
+
+    .s-title h2{
+        font-size: medium;
+        font-weight: 500;
+    }
+
+    .card img{
+        height:250px;
+    }
+
+
+    .earn{
+        height: 100vh;
+        background-color: #010129;
+        color: white;
+        padding-top:3rem ;
+    }
+    
+    .earn-box{
+        margin:0 auto;
+        max-width:85% ;/*90%*/
+        display: flex;
+        justify-items: flex-start;
+        align-items: center;
+        margin-top:10rem;
+        
+    }
+    
+    .diamone img,.coin img{
+        height: 150px;
+    } 
+    
+    .earn-title{
+        
+        text-align: center;
+        margin:auto;
+    }
+    
+    .earn-title h1{
+        font-size: 45px;
+    }
+    
+    .earn-title h3{
+        font-size: large;
+        font-weight: 100;
+        margin: 0 auto;
+    }
+
+    .join{
+        height: 90vh;
+        /*background-color: #010129;
+        color: white;
+        padding-top:3rem ;
+        width:100%;
+        */
+    }
+    
+    .join-box{
+        height:90vh;
+        text-align: center;
+        font-size: 37px;
+        max-width: 90%;
+        margin:0 auto;  
+        
+    }
+    
+    .join-box h1{
+       background: -webkit-linear-gradient( rgb(158, 15, 158), rgb(82, 64, 200, 252));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    
+    
 }
